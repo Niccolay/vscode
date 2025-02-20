@@ -1,0 +1,142 @@
+{
+  "editor.minimap.enabled": false,
+  "multiDiffEditor.experimental.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.cwd": "${fileDirname}",
+  "files.defaultLanguage": "plaintext",
+  "files.associations": {
+    "*.thor": "ruby",
+    "*.css": "tailwindcss"
+  },
+  "editor.linkedEditing": true,
+  "editor.cursorBlinking": "expand",
+  "workbench.iconTheme": "symbols",
+  "scm.experimental.showHistoryGraph": true,
+  "gutterpreview.showImagePreviewOnGutter": false,
+  "gutterpreview.showUnderline": false,
+  "git.autofetch": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.wordWrap": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.useInlineCompletions": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.colorTheme": "One Dark Pro Mix",
+
+  "workbench.colorCustomizations":{
+    "foreground": "#c8d3f5",
+    "editor.background": "#222436",
+    "activityBar.background": "#1e2030",
+    "activityBar.foreground": "#b4c2f0",
+    "sideBar.background": "#1e2030",
+    "titleBar.activeBackground": "#1e2030",
+    "titleBar.activeForeground": "#c8d3f5",
+    "titleBar.inactiveBackground": "#1e2030",
+    "panel.background": "#1e2030",
+    "statusBar.background": "#1e2030",
+    "statusBar.foreground": "#828bb8",
+    "menu.background": "#1e2030",
+    "breadcrumb.background": "#222436",
+    "debugToolBar.background": "#1e2030",
+    "editorHoverWidget.background": "#191a2a",
+    "editorSuggestWidget.background": "#191a2a",
+    "notifications.background": "#2f334d",
+    "button.background": "#3b63cf",
+    "button.hoverBackground": "#3d6fe0",
+    "panelTitle.activeBackground": "#c8d3f505",
+    "panelTitle.inactiveForeground": "#828bb8",
+    "terminal.background": "#222436",
+    "terminal.selectionBackground": "#444655",
+    "input.background": "#191a2a",
+    "settings.dropdownBackground": "#2f334d",
+    "settings.textInputBackground": "#191a2a",
+    "settings.checkboxBackground": "#131421",
+    "sideBarSectionHeader.background": "#1e2030",
+    "sideBar.foreground": "#828bb8",
+    "tab.activeBackground": "#222436",
+    "tab.inactiveBackground": "#1e2030",
+    "tab.activeBorder": "#7cafff",
+    "tab.activeForeground": "#c8d3f5",
+    "tab.inactiveForeground": "#828bb8",
+    "tab.border": "#191a2a"
+  },
+   
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic",
+        }
+      }
+    ],
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    }
+  },
+  "editor.fontFamily": "'Cascadia Code'",
+  "editor.fontLigatures": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "eslint.format.enable": false,
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "supermaven.allowGitignore": true,
+  "supermaven.enable": {
+    "*": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.settings.applyToAllProfiles": [
+    "workbench.colorCustomizations"
+  ],
+  "window.titleBarStyle": "custom",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "python.terminal.activateEnvironment": false,
+  "python.terminal.activateEnvInCurrentTerminal": false,
+  "workbench.sideBar.location": "right",
+  
+
+}
